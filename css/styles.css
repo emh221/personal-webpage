@@ -1,0 +1,89 @@
+
+.container-fluid {
+  background-color: red;
+}
+
+a {
+  color: green;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+
+  /* color: green; */
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+
+  /* color:rgb(255, 23, 93); */
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+
+  /* color:rgb(255, 94, 142); */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  background-image: linear-gradient(to right, rgba(255, 192, 203, 0.753) , rgba(250, 128, 114, 0.966)),  url('../img/cucurbitaceae-88188_1920.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.img-fluid {
+  width: 50%;
+  height:auto;
+}
+
+.my-img {
+  border: 8px solid green;
+}
+
+@media (min-width: 760px) {
+  .img-fluid {
+    width: 30%;
+    height:auto;
+  }
+}
+
+.myprojects {
+  font-family: 'Montserrat', sans-serif;
+  
+  margin: 20px;
+  border: solid green 8px;
+  padding: 12px;
+  background-image: linear-gradient(to right, #7cff7cc9,rgba(41, 255, 41, 0.849)), url('../img/watermelon-3877125_1920.jpg');
+}
+
+
+.aboutme {
+  font-family: 'Montserrat', sans-serif;
+
+  margin: 20px;
+  border: solid green 8px;
+  padding: 12px;
+  background-image: linear-gradient(to right, #7cff7cc9,rgba(41, 255, 41, 0.849)), url('../img/watermelon-3877125_1920.jpg');
+}
+
+.allkinds {
+  font-family: 'Montserrat', sans-serif;
+
+  font-style: italic;
+}
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+}
+
+@media (min-width: 760px) {
+  .copyright {
+    text-align: right;
+  }
+}
